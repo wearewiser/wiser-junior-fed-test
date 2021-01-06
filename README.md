@@ -28,8 +28,8 @@ Notes:
 
 - Other than those already installed, no external libraries/packages/plugins should be used to build this component.
 - The HEX colour codes used in this design are `#5031AA`, `#231E32` and `#FFFFFFF`.
-- The `font-family` used in this design can be found in `fonts.scss`
-- The icon used in this design can be found in the `images` directory
-- The placeholder description text has been taken from [loremipsum.io](https://loremipsum.io/)
+- The `font-family` used in this design can be found in `fonts.scss`.
+- The icon used in this design can be found in the `images` directory.
+- The placeholder description text has been taken from [loremipsum.io](https://loremipsum.io/).
 
 If you have any questions, please feel free to email engineering@wearewiser.com.
