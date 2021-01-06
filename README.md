@@ -6,7 +6,7 @@ This test should be completed to be considered for the Junior Front End Develope
 
 ## Instructions
 
-Fork this repo. After downloading a local copy, you will need to run commands `npm install` and then `npm run dev` in order to run the local development server. When you have completed the task, push your code and email a link to engineering@wearewiser.com to let us know! You should spend around 2 hours on this task.
+Fork this repo. After downloading a local copy, you will need to run commands `npm install` and then `npm run dev` in order to run the local development server. When you have completed the task, push your code and email a link to engineering@wearewiser.com to let us know! You should spend up to 2 hours on this task.
 
 ## The test
 
