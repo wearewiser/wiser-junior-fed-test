@@ -1,1 +1,126 @@
 @import "./styles/fonts.scss";
+@import "./styles/mediaQueries.scss";
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2%;
+    color: white;
+}
+
+.wiser{
+    color: black;
+    z-index: 1;
+}
+
+.card--Container{
+    position: relative;
+    font-family: 'Graphik';
+    background: #4f31aa;
+    min-height: 65vh;
+    border:#6e3eff solid 2.5px;
+    overflow:hidden;
+}
+
+.card--Container:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.404);
+    border:#6e3eff solid 2.5px;
+}
+
+.card--Container:active{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.534);
+    border:#7f55ff solid 2.5px;
+}
+
+.frontTextContainer{
+    position: absolute;
+    bottom:20%;
+}
+
+.frontTitle{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.frontSubTitle{
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 1.2rem;
+}
+
+.descriptionContainer{
+    position: absolute;
+    bottom: 10%;
+    font-size: 0.9rem;
+}
+
+.back--paragraph{
+    display: none;
+}
+
+.btn{
+    height: 45px;
+    transform: rotate(45deg) translate(0%, 35%);
+}
+
+.description__Hide{
+    display: none;
+}
+
+
+.frontBackground--stripesContainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top:0%
+}
+.frontBackground--stripe{
+    background: #5031AA;
+    width: calc(100% / 7);
+    max-width: calc(100% / 8);
+    min-width: calc(100% / 8);
+    min-height: 100%;
+}
+//stripes animation
+@keyframes verticalWave {
+    0% {transform: translateY(0px);
+    }
+    10% {transform: translateY(-10%);
+    }
+    20% {transform: translateY(-20%);
+    }
+    30% {transform: translateY(-30%);
+    }
+    40% {transform: translateY(-40%);
+    }
+    50% {transform: translateY(-50%);
+    }
+    60% {transform: translateY(-60%);
+    }
+    70% {transform: translateY(-70%);
+    }
+    80% {transform: translateY(-80%);
+    }
+    90% {transform: translateY(-90%);
+        opacity: 0.98;
+    }
+    100% {transform: translateY(-100%);
+        opacity: 0.99;
+    }
+}

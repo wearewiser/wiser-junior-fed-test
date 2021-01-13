@@ -1,0 +1,36 @@
+@media (min-width:0px){
+    .card--Container{
+        width: 95vw;
+        max-width: 95vw;
+        padding: 5%;
+    }
+}
+
+@media (min-width:768px){
+    .card--Container{
+        width: 60vw;
+        max-width: 60vw;
+        font-size: 1.3rem;
+    }.frontTitle{
+        line-height: 1rem;
+        font-size: 1.6rem;
+    }html{
+        font-size: 200%;
+    }
+}
+
+
+
+@media (min-width:1440px){
+    .card--Container{
+        width: 50vw;
+        max-width: 50vw;
+        padding: 4%;
+    }
+}
+
+@media (min-width:2440px){
+    .card--Container{
+        width: 30vw;
+    }
+}
